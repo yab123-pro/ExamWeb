@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FluentPath — English Lessons</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.1"/>
+          <path d="M6 16h8M6 12h12M6 8h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span>FluentPath</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Master English with clarity and confidence</h1>
+          <p>Structured lessons, interactive quizzes, and practical exercises designed by educators. Learn at your pace with a beautiful, distraction‑free experience.</p>
+          <div class="hero-actions">
+            <a href="lessons.html" class="btn btn-primary">Start learning</a>
+            <a href="#features" class="btn btn-ghost">Explore features</a>
+          </div>
+          <div class="hero-meta">
+            <div class="meta-item">
+              <strong>Beginner to Advanced</strong>
+              <span>Clear progression path</span>
+            </div>
+            <div class="meta-item">
+              <strong>Interactive</strong>
+              <span>Instant feedback quizzes</span>
+            </div>
+            <div class="meta-item">
+              <strong>Mobile‑friendly</strong>
+              <span>Learn anywhere</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card">
+            <div class="card-header">
+              <h3>Today’s quick lesson</h3>
+              <span class="badge">Grammar</span>
+            </div>
+            <div class="card-body">
+              <p><strong>Topic:</strong> Present Simple vs Present Continuous</p>
+              <ul class="checklist">
+                <li>Form and usage</li>
+                <li>Signal words</li>
+                <li>Common mistakes</li>
+              </ul>
+              <a class="btn btn-secondary" href="lessons.html#lesson-grammar-present">Open lesson</a>
+            </div>
+          </div>
+          <div class="progress-preview">
+            <div class="progress-labels">
+              <span>Progress</span><span id="home-progress">0%</span>
+            </div>
+            <div class="progress-bar"><div id="home-progress-bar"></div></div>
+            <small>Your quiz results update this bar automatically.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Everything you need to learn well</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <div class="icon-circle">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Structured lessons</h3>
+            <p>Clear, step‑by‑step modules with objectives, examples, and practice tasks.</p>
+          </div>
+          <div class="feature">
+            <div class="icon-circle">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20a8 8 0 100-16 8 8 0 000 16zm0-11v5m0 3h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Instant feedback</h3>
+            <p>Interactive quizzes give you immediate, helpful explanations.</p>
+          </div>
+          <div class="feature">
+            <div class="icon-circle">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4-9-4zm0 6l9 4 9-4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Beautiful UI</h3>
+            <p>Modern, accessible design that keeps you focused and motivated.</p>
+          </div>
+          <div class="feature">
+            <div class="icon-circle">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Goals & tracking</h3>
+            <p>See your progress and celebrate milestones as you advance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-card">
+        <div>
+          <h2>Ready to improve your English?</h2>
+          <p>Jump into your first lesson and get immediate feedback. No sign‑up required.</p>
+        </div>
+        <a href="lessons.html" class="btn btn-primary">Go to lessons</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.1"/>
+            <path d="M6 16h8M6 12h12M6 8h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span>FluentPath</span>
+        </a>
+        <p class="muted">Learn English the right way. Clear lessons, beautiful experience.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lessons.html">Lessons</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in touch</h4>
+        <p class="muted">Questions or feedback? We’d love to hear from you.</p>
+        <a class="btn btn-ghost" href="contact.html">Contact us</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> FluentPath</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
